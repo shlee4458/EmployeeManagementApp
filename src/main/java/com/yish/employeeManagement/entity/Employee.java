@@ -19,6 +19,10 @@ public class Employee {
     @Column(name="email")
     private String email;
 
+    public Employee() {
+
+    }
+
     // define constructors
     public Employee(int id, String firstName, String lastName, String email) {
         this.id = id;
