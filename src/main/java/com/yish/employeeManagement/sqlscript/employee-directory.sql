@@ -9,7 +9,6 @@ DROP TABLE IF EXISTS `employee`;
 DROP TABLE IF EXISTS `authorities`;
 DROP TABLE IF EXISTS `users`;
 
-
 CREATE TABLE `employee` (
   `id` int NOT NULL AUTO_INCREMENT,
   `first_name` varchar(45) DEFAULT NULL,
